@@ -33,7 +33,7 @@ class ISTJState(TypedDict):
 
 # 2. 初始化 Gemini Flash 模型
 gemini = ChatGoogleGenerativeAI(
-    api_key='AIzaSyDA4qdmteMC5PdkZVxxZuqNUh6_o90jTnY',
+    api_key='',
     model='gemini-2.5-flash'
 )
 
