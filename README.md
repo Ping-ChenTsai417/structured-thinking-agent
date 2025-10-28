@@ -35,3 +35,21 @@ LLM 驅動的結構化思考代理。你丟一段真實情境，它會輸出一�
 1. 安裝依賴：
    ```bash
    pip install langgraph langchain-google-genai google-generativeai
+
+2. 設定你的 Gemini API key（在程式裡或用環境變數都可以）。
+
+3. 執行 ISTJ 模式：
+   ```bash
+   python graph_ISTJ.py
+
+4. 執行 MECE 模式：
+   ```bash
+   python graph_MECE.py
+   
+5. 執行後會產生兩個輸出：
+
+- 終端機：印出 LLM 分析後的節點 / 邊
+
+- 專案目錄下多一個 .mmd 檔（Mermaid）
+
+6. 用 VS Code 的 Mermaid Preview 外掛，或任何 Mermaid viewer，打開 .mmd 檔就能看到關係圖。
